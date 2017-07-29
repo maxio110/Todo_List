@@ -1,0 +1,24 @@
+{
+  "name": "TODO List",
+  "authors": [
+    "Xiang Wang <xw1173@nyu.edu>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "keywords": [
+    "Assessment"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}

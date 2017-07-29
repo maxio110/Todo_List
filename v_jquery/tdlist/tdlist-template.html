@@ -1,0 +1,39 @@
+<div class="tdlist">
+    <table class="table table-fixed-layout table-bordered">
+        <tr>
+            <td>
+                <input type="text" class="tdlist-add-input">
+                Priority: <select class="tdlist-priority-select"></select>
+            </td>
+            <td>
+                <button class="btn btn-success tdlist-add-btn">Add</button>
+                <button class="btn btn-danger tdlist-remove-completed-btn">Remove Completed</button>
+            </td>
+            <td>
+                Order by: <select class="tdlist-order-select"></select>
+            </td>
+        </tr>
+    </table>
+
+    <ul class="list-group tdlist-item-list">
+        <li class="list-group-item tdlist-item-template">
+            <table class="table table-fixed-layout table-bordered tdlist-item-table">
+                <tr>
+                    <td>
+                        <span class="tdlist-index-span"></span>
+                        <span class="tdlist-text-span">Template</span>
+                        <input type="text" class="tdlist-item-input">
+                        <select class="tdlist-item-priority-select"></select>
+                    </td>
+                    <td>
+                        <button class="btn btn-info tdlist-item-edit-btn">Edit</button>
+                        <button class="btn btn-danger tdlist-item-delete-btn">Delete</button>
+                    </td>
+                    <td>Completed:
+                        <input type="checkbox" class="tdlist-item-check">
+                    </td>
+                </tr>
+            </table>
+        </li>
+    </ul>
+</div>
